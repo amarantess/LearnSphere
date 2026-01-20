@@ -26,7 +26,7 @@ export function Navbar(){
             
             <div className="hidden md:flex gap-4">
                 <button className="p-2 rounded-lg font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Sign In</button>
-                <button className="p-2 rounded-lg font-bold text-white bg-blue-600 hover:bg-blue-700">Get Started</button>
+                <button className="py-2 px-4 rounded-lg font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-500/25 hover:shadow-blue-500/40">Get Started</button>
             </div>
         </nav>
     )
